@@ -1,0 +1,4 @@
+---
+applications:
+- name: scorecard
+  path: ./
