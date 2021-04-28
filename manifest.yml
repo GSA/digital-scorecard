@@ -1,6 +1,6 @@
 ---
 applications:
-- name: custom_start_command
+- name: alpha-scorecard
   command: npm install
 - name: scorecard
   path: ./
