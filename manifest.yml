@@ -2,6 +2,5 @@
 applications:
 - name: alpha-scorecard
   command: npm install
-- name: scorecard
   path: ./
   
