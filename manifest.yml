@@ -4,7 +4,6 @@ applications:
     buildpacks:
       - staticfile_buildpack
       - https://github.com/cloudfoundry/nodejs-buildpack
-    command: npm install
     path: ./
 
   
