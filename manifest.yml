@@ -1,6 +1,6 @@
 ---
 applications:
-- name: alpha-scorecard
-  command: npm install
-  path: ./
+  - name: alpha-scorecard
+    command: npm install
+    path: ./
   
