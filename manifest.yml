@@ -1,4 +1,7 @@
 ---
 applications:
+- name: custom_start_command
+  command: npm install
 - name: scorecard
   path: ./
+  
