@@ -3,7 +3,7 @@ applications:
   - name: alpha-scorecard
     buildpacks:
       - staticfile_buildpack
-      - nodejs-buildpack
+      - https://github.com/cloudfoundry/nodejs-buildpack
     command: npm install
     path: ./
 
