@@ -1,6 +1,10 @@
 ---
 applications:
   - name: alpha-scorecard
+    buildpacks:
+      - staticfile_buildpack
+      - nodejs-buildpack
     command: npm install
     path: ./
+
   
