@@ -1,5 +1,5 @@
 {
-  "name": "scorecard",
+  "name": "alpha-scorecard",
   "version": "0.0.1",
   "description": "A page to report out compliance with GSA's digital guidelines.",
   "main": "example.html",
@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "uswds": "^2.11.1"
+  },
+  "engines": {
+    "node": "0.12.7",
+    "npm": "2.7.4"
   }
 }
